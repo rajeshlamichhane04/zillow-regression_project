@@ -19,7 +19,7 @@ Zillow Regression Project
 
 ## Project Description
 
-> -  Zillow has a model that is designed to predict the property tax assessed values("taxvaluedollarcnt") of single family properties that had a transaction during 2017. This project aims to make improvement on the previous model. Utilizing Data Science pipelines, this project will study various features that affects the value of property, find out the driving factors of such cost, build up a model of our own that can beat the previous model. We will also make some recommendations based on our findings.
+> -  Zillow has a model that is designed to predict the property tax assessed values("taxvaluedollarcnt") of single family properties that had a transaction during 2017. This project aims to make improvement on the previous model. Utilizing Data Science pipelines, this project will study various features that affects the value of property, I will find out the driving factors of such value, build up a model that can beat the previous model. I will also make some recommendations based on our findings.
 
 ## Initial Questions
 
@@ -56,7 +56,7 @@ Zillow Regression Project
 
 ## Preparation
 
-> - I accomplished this using prepare.py file. I cleaned up the data by removing outliers and renaming column names. I also converted bedroom datatype from float to integer. I also assigned fips with thier corresponding county names. Further I split my data into train (56%), validate(24%) and test (20%). I scaled my features before fitting them in to my models.
+> - I accomplished this using prepare.py file. I cleaned up the data by removing outliers and renaming column names. I also converted bedroom datatype from float to integer. I also assigned fips with thier corresponding county names. Further, I split my data into train (56%), validate(24%) and test (20%). I scaled my features before fitting them in to my models.
 
 > ##  Exploration
 
@@ -72,4 +72,4 @@ Zillow Regression Project
 
 ## Key Takeaways and Recommendations
 
-> - I was able to make a better model than the Zillow's model. After modeling the zillow data using five features (bathrooms, bedrooms, area, year built, and fips), the Polynomial Model with degree 5 produced the best results with high RMSE values of 215107, 215571 and 218218 for train, validate and test dataset. My model beat the baseline by only 11%.There were a numbers of outliers in our data. I removed outliers using Tukey method where I lost 16% of my data. However, I still had outliers present that may have affected my RMSE from my models. I recommend exploring more features such as pool and garage. Also having data on crime rate, happiness index, household income, and school zone would be greatly benificials as they tend to affect housing market widely.
+> - After modeling the zillow data using five features (bathrooms, bedrooms, area, year built, and fips), the Polynomial Model with degree 5 produced the best results with high RMSE values of 215107, 215571 and 218218 for train, validate and test dataset. My model beat the baseline by only 11%.There were a numbers of outliers in our data. I removed outliers using Tukey method where I lost 16% of my data. However, I still had outliers present that may have affected my RMSE from my models. I recommend exploring more features such as pool and garage. Also having data on crime rate, happiness index, household income, and school zone would be greatly benificials as they tend to affect housing market widely.
