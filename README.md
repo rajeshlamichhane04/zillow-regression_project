@@ -7,7 +7,7 @@ Zillow Regression Project
 > - This repository houses a complete files for this project. These files are
 
 > -  README.md: It contains the outline of this project
-> -  Zillow_project_workbook.ipynb: This jupyter notebook consists of data science pipeline used to study the churn at Telco
+> -  Zillow_project_workbook.ipynb: This jupyter notebook consists of data science pipeline to help me build model to predict the property value.
 > -  acquire.py: It consists of codes for data acquition process
 > -  prepare.py: It consists of codes for data cleaning and data split
 > -  viz.py: It consists of codes for functions for statistcial test, visualization, modeling and feature selection.
