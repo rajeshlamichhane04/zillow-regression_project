@@ -35,7 +35,7 @@ Zillow Regression Project
 > - 3. calculatedfinishedsquarefeet	= Calculated total finished living area of the home
 > - 4. fips = Federal Information Processing Standard code
 > - 5. yearbuilt = The Year the principal residence was built
-> - 6. taxvaluedollarcnt = The total tax assessed value of the parcel
+> - 6. taxvaluedollarcnt = The total tax assessed value of the property
 
 
 ## Steps to Reproduce
