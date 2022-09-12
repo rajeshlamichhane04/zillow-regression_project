@@ -71,5 +71,5 @@ Zillow Regression Project
 > - I was able to create a predicted tax value using my top performing model.
 
 ## Key Takeaways and Recommendations
-> - I was able to make a better model than the Zillow's model. However, I was not very proud of it as it beat baseline with only 11%
-> - There were a numbers of outliers in our data. I removed outliers using Tukey method where I lost 16% of my data. However, I still had outliers present that may have affected my RMSE from my models.
+
+> - I was able to make a better model than the Zillow's model. After modeling the zillow data using five features (bathrooms, bedrooms, area, year built, and fips), the Polynomial Model with degree 5 produced the best results with high RMSE values of 215107, 215571 and 218218 for train, validate and test dataset. My model beat the baseline by only 11%.There were a numbers of outliers in our data. I removed outliers using Tukey method where I lost 16% of my data. However, I still had outliers present that may have affected my RMSE from my models. I recommend exploring more features such as pool and garage. Also having data on crime rate, happiness index, household income, and school zone would be greatly benificials as they tend to affect housing market widely.
